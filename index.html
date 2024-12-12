@@ -1,0 +1,195 @@
+<!DOCTYPE html>git remote -v
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+<script src="script.js" defer></script>
+
+    <title>my homepage</title>
+</head>
+<body>
+    <div class="header">
+        <div class="profile-item">
+            <div class="profile-photo">
+                <div class="profile-inner">
+                    <img src="profile.png" alt="프로필 사진">
+                </div>
+            </div>
+            <p>admin</p>
+        </div>
+        <div class="profile-item">
+            <div class="profile-photo">
+                <div class="profile-inner">
+                    <img src="profile.png" alt="프로필 사진">
+                </div>
+            </div>
+            <p>admin</p>
+        </div>
+        <div class="profile-item">
+            <div class="profile-photo">
+                <div class="profile-inner">
+                    <img src="profile.png" alt="프로필 사진">
+                </div>
+            </div>
+            <p>admin</p>
+        </div>
+        <div class="profile-item">
+            <div class="profile-photo">
+                <div class="profile-inner">
+                    <img src="profile.png" alt="프로필 사진">
+                </div>
+            </div>
+            <p>admin</p>
+        </div>
+        <div class="profile-item">
+            <div class="profile-photo">
+                <div class="profile-inner">
+                    <img src="profile.png" alt="프로필 사진">
+                </div>
+            </div>
+            <p>admin</p>
+        </div>
+    </div>
+    <aside class="sidebar">
+        <header class="sidebar-header">
+            <img src="logo.svg" class="logo-img">
+            <i class="logo-icon bx bxl-instagram"></i>
+        </header>
+
+        <nav>
+            <button>
+                <span>
+                    <i class='bx bx-home' ></i>
+                    <span>Home</span>
+                </span>
+            </button>
+
+            <button>
+                <span>
+                    <i class='bx bx-search' ></i>
+                    <span>Search</span>
+                </span>
+            </button>
+
+            <button>
+                <span>
+                    <i class='bx bx-compass' ></i>
+                    <span>Explore</span>
+                </span>
+            </button>
+
+            <button>
+                <span>
+                    <i class='bx bxl-telegram' >
+                        <span>13</span>
+                    </i>
+                    <span>Messages</span>
+                </span>
+            </button>
+
+            <button>
+                <span>
+                    <i class='bx bx-heart' >
+                        <em></em>
+                    </i>
+                    <span>Notifications</span>
+                </span>
+            </button>
+
+            <button>
+                <span>
+                    <i class='bx bx-plus-circle' ></i>
+                    <span>Create</span>
+                </span>
+            </button>
+            <label class="toggle">
+                <input role="switch" type="checkbox" />
+                <span>darkmode</span>
+              </label>
+            <button>
+                <span>
+                    <i class='bx bxs-cat'></i>
+                    <span>Profile</span>
+                </span>
+            </button>
+
+        </nav>
+</aside>
+
+
+
+
+<div class="follow-suggestions">
+    <h6>회원님을 위한 추천</h6>
+    <ul>
+        <li>
+            <img src="profile.png" alt="muong_chichi 프로필 사진" class="profile-pic">
+            <a href="#" class="follow-name">muong_chichi</a>
+            <a href="#" class="follow-button">팔로우</a>
+        </li>
+        <li>
+            
+            <img src="profile.png" alt="eunju_dori 프로필 사진" class="profile-pic">
+            <a href="#" class="follow-name">eunju_dori</a>
+            <a href="#" class="follow-button">팔로우</a>
+        </li>
+        <li>
+            <img src="profile.png" alt="vv_liliec 프로필 사진" class="profile-pic">
+            <a href="#" class="follow-name">vv_liliec</a>
+            <a href="#" class="follow-button">팔로우</a>
+        </li>
+        <li>
+            <img src="profile.png" alt="bulpiri 프로필 사진" class="profile-pic">
+            <a href="#" class="follow-name">bulpiri</a>
+            <a href="#" class="follow-button">팔로우</a>
+        </li>
+        <li>
+            <img src="profile.png" alt="bd_k0110 프로필 사진" class="profile-pic">
+            <a href="#" class="follow-name">bd_k0110</a>
+            <a href="#" class="follow-button">팔로우</a>
+        </li>
+    </ul>
+</div>
+
+<!-- 본문 -->
+<div class="post-container">
+    <div class="post-header">
+        <img src="profile.png" alt="프로필 사진" class="profile-pic-small">
+        <span class="username">miiixvii_</span>
+    </div>
+    <!-- 캐러샐 -->
+    <div class="carousel">
+        <div class="carousel-inner">
+            <img src="pic1.webp" alt="이미지 1">
+            <img src="pic2.jpg" alt="이미지 2">
+            <img src="pic3.webp" alt="이미지 3">
+        </div>
+        <button class="carousel-control-prev" onclick="prevSlide()">&#10094;</button>
+        <button class="carousel-control-next" onclick="nextSlide()">&#10095;</button>
+        
+    </div>
+    <div class="post-actions">
+        
+        <div class="express" onclick="toggleHeart(this)">
+            <i class='bx bx-heart'></i>
+        </div>
+        <div class="comment">
+            <i class='bx bx-comment'></i>
+        </div>
+        <div class="message">
+            <i class='bx bx-paper-plane'></i>
+        </div>
+    </div>
+    <div class="post-caption">
+        <p><strong>miiixvii_</strong> 화살표를 눌러 사진을 넘겨보세요! 좋아요도 잊지 마세요^^</p>
+    </div>
+</div>
+
+</body>
+</html>
